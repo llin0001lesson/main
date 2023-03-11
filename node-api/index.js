@@ -52,7 +52,8 @@ const server = _HTTP.createServer((req, res) => {
 });
 
 server.listen(3001, () => {
-  console.log('Server running on port 3000');
+  console.log('Server running on port 3001');
+  console.log('/coin, /dog, /hello?name=Billie, /nasa, /north, /north/actuator');
 });
 
 
